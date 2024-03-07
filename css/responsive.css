@@ -1,0 +1,50 @@
+@media only screen and (max-width: 820px) {
+    /* For data */
+    
+    /* For p */
+    .side-nav {
+        display: none;
+    }
+    .function {
+        border-radius: 0px;
+    }
+    .side-nav--mobile {
+        display: block;
+    }
+    .side-nav--mobile .side-nav__btn {
+        display: none;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .side-nav {
+        display: none;
+    }
+    .function {
+        border-radius: 0px;
+        width: 90%;
+    }
+    .side-nav--mobile {
+        display: block;
+    }
+    .side-nav--mobile .side-nav__btn {
+        display: none;
+    }
+    .file-area {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .file {
+        height: 500px;
+    }
+    .dist .btn {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 374px) {
+    #admin {
+        display: none;
+    }
+    .side-nav--mobile {
+        display: none;
+    }
+}
