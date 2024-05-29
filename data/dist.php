@@ -5,7 +5,7 @@ $to = "../../";
 $data = $_POST['data'];
 $data = json_decode($data);
 // Function for copying the entire folder
-function copyfolder($from, $to, $ext="*") {
+function copyfolder($from, $to) {
     // Check original folder
     if(!is_dir($from)) {
         exit("$from does not exist");
@@ -17,11 +17,16 @@ function copyfolder($from, $to, $ext="*") {
         }
     }
     // Get all files and folders in source
-    $all = glob("$from$ext", GLOB_MARK);
+    $all1 = glob("$from*", GLOB_MARK);
+    $all2 = glob("$from.*", GLOB_MARK);
+    $all = array_merge($all1, $all2);
     // Copy files + Recursive Internal Folders
-    if(count($all)>0) {
+    if(count($all) > 0) {
         foreach($all as $a) {
             $ff = basename($a); // Get current file, folder name
+            if($ff === ".") continue;
+            if($ff === "..") continue;
+            if($ff === ".DS_Store") continue;
             if(is_dir($a)) {
                 copyfolder("$from$ff/","$to$ff/");
             } else {
