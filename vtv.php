@@ -81,23 +81,7 @@ $listOfProduct = product();
                                 for($i = 0; $i < count($array); $i++) {
                                     if($array[$i] != "." && $array[$i] != ".." && $array[$i] != ".DS_Store") {
                                         $nextPath = $path.DIRECTORY_SEPARATOR.$array[$i];
-                                        $img = str_contains($array[$i],".")?end(explode(".", $array[$i])):"folder";
-                                        $arrOfIcon = ["css", "gif", "html", "ico", "jpeg", "jpg", "js", "json", "md", "mp4", "php", "png", "txt"];
-                                        $has = false;
-                                        foreach($arrOfIcon as $ext) {
-                                            if($img === $ext) {
-                                                $has = true;
-                                                break;
-                                            }
-                                            if(str_contains($img, "git")) {
-                                                $img = "git";
-                                                $has = true;
-                                                break;
-                                            }
-                                        }
-                                        if(!$has) {
-                                            $img = "else";
-                                        }
+                                        $img = iconClassification($array[$i]);
                                         if(is_dir($nextPath)) {
                                             $markup .= '<div style="border-left: solid 2px #000; padding-left: 10px;"><div class="file__list--ele"><div class="img"><img src="/img/'.$img.'.png"></div><p>'.$array[$i].'</p><input type="text" class="edit__box"><button class="edit"><i class="fa-solid fa-pencil"></i><span>edit</span></button><button class="acceptEdit" style="display: none;"><input type="hidden" name="'.$nextPath.'"><i class="fa-solid fa-check"></i></button><button class="delete"><input type="hidden" name="'.$nextPath.'"><i class="fa-solid fa-trash-can"></i><span>remove</span></button></div>'.show($nextPath).'</div>';
                                         } else {
