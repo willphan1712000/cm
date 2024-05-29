@@ -1,7 +1,7 @@
 <?php
 $title = "Code Management";
 $sessionDuration = 60*20; // 20 minutes
-$v = 1;
+$v = 2;
 $copyright = '© '.date("Y").' Allinclicks. All rights reserved.';
 $phpversion = '. PHP Version: '.phpversion();
 
