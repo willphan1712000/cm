@@ -1,4 +1,4 @@
-<head><script defer src="/dist/mainca76fd37822be6fe1eed.js"></script><script defer src="/dist/loginbd0dfeb65760c4325e71.js"></script><script defer src="/dist/universalbd0dfeb65760c4325e71.js"></script></head>Html Webpack Plugin:
+<head><script defer src="/dist/tvbd0dfeb65760c4325e71.js"></script></head>Html Webpack Plugin:
 <pre>
   Error: Child compilation failed:
   Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/sessionExpired.php' in '/Applications/XA  MPP/xamppfiles/htdocs'
