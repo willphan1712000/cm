@@ -1,5 +1,5 @@
 <?php
-SystemConfig::globalVariables();
+$g = SystemConfig::globalVariables();
 $conn = Database::connection();
 SESSION_START();
 if (isset($_SESSION['username'])) {
@@ -35,18 +35,16 @@ if (isset($_SESSION['username'])) {
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/universal.css?v=<?php echo $v;?>">
-	<link rel="stylesheet" type="text/css" href="css/login.css?v=<?php echo $v;?>">
-	<title><?php echo $title;?> Log in</title>
+	<title><?=$g['title'];?> Log in</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script defer src="/dist/bundle141fb03bfc58917159ba.js"></script></head>
+<script defer src="/dist/bundle141fb03bfc58917159ba.js"></script><script defer src="/dist/universald73e00ea6764dab4fcea.js"></script><script defer src="/dist/loginb82890d5a36296fd33f2.js"></script></head>
 <body>
 	<div class="login_parent">
 		<div class="login_container">
 			<div class="login_design">
 				<div class="login_design__logo">
-					<img src="/img/code.png?v=<?php echo $v;?>">
-					<h3><?php echo $title; ?></h3>
+					<img src="img/code.png" draggable="false">
+					<h3><?=$g['title'];?></h3>
 				</div>
 			</div>
 			<div class="login_box">
