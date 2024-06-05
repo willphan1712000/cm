@@ -1,6 +1,8 @@
 <?php
-include "maintenance.php";
-require "config.php";
+include "core.php";
+$g = SystemConfig::globalVariables();
+$conn = Database::connection();
+[$server, $username, $password] = Database::getDatabaseInfo();
 switch($_POST['request']) {
     case 'p':
         if($conn) {

@@ -1,6 +1,8 @@
 <?php
-require "config.php";
-include "maintenance.php";
+require 'core.php';
+$g = SystemConfig::globalVariables();
+$conn = Database::connection();
+[$server, $username, $password] = Database::getDatabaseInfo();
 if($conn) {
     if(isset($_POST['date']) && isset($_POST['req']) && isset($_POST['name'])) {
         $req = $_POST['req'];

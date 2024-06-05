@@ -1,5 +1,7 @@
 <?php
-$prePath = "../".$_POST['product']."/";
+require 'core.php';
+
+$prePath = SystemConfig::getRootDir().$_POST['product']."/";
 $file = $_POST['file'];
 $path = $prePath.$file;
 if(!file_exists($path)) {
