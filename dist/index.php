@@ -1,228 +1,69 @@
-<head><script defer src="/dist/mainca76fd37822be6fe1eed.js"></script><script defer src="/dist/loginbd0dfeb65760c4325e71.js"></script><script defer src="/dist/universalbd0dfeb65760c4325e71.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/sessionExpired.php' in '/Applications/XA  MPP/xamppfiles/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/sessionExpired.php'   in '/Applications/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/logOutPage.php' in '/Applications/XAMPP/  xamppfiles/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/logOutPage.php' in   '/Applications/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/admin.php' in '/Applications/XAMPP/xampp  files/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/admin.php' in '/App  lications/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicadmin.php' in '/Applications/XAMPP/xa  mppfiles/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicadmin.php' in '/  Applications/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicindex.php' in '/Applications/XAMPP/xa  mppfiles/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicindex.php' in '/  Applications/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/tv.php' in '/Applications/XAMPP/xamppfil  es/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/tv.php' in '/Applic  ations/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/subsTerminated.php' in '/Applications/XA  MPP/xamppfiles/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/subsTerminated.php'   in '/Applications/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/404.php' in '/Applications/XAMPP/xamppfi  les/htdocs'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/404.php' in '/Appli  cations/XAMPP/xamppfiles/htdocs'
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/Compilation.js:2094:28
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:895:13
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:10:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:332:22
-      at eval (eval at create (/Applications/XAMPP/xamppfiles/htdocs/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymou  s>:9:1)
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:509:22
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:151:11
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:767:25
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:979:8
-      at /Applications/XAMPP/xamppfiles/htdocs/node_modules/webpack/lib/NormalModuleFactory.js:1109:5
-  
-  - Compilation.js:2094 
-    [htdocs]/[webpack]/lib/Compilation.js:2094:28
-  
-  - NormalModuleFactory.js:895 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:895:13
-  
-  
-  - NormalModuleFactory.js:332 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:332:22
-  
-  
-  - NormalModuleFactory.js:509 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:509:22
-  
-  - NormalModuleFactory.js:151 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:151:11
-  
-  - NormalModuleFactory.js:767 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:767:25
-  
-  - NormalModuleFactory.js:979 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:979:8
-  
-  - NormalModuleFactory.js:1109 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:1109:5
-  
-  - Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/logOutPage.php' in '/Applications/XAMP    P/xamppfiles/htdocs'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/logOutPage.php' i    n '/Applications/XAMPP/xamppfiles/htdocs'
-  
-  - Compilation.js:2094 
-    [htdocs]/[webpack]/lib/Compilation.js:2094:28
-  
-  - NormalModuleFactory.js:895 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:895:13
-  
-  
-  - NormalModuleFactory.js:332 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:332:22
-  
-  
-  - NormalModuleFactory.js:509 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:509:22
-  
-  - NormalModuleFactory.js:151 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:151:11
-  
-  - NormalModuleFactory.js:767 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:767:25
-  
-  - NormalModuleFactory.js:979 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:979:8
-  
-  - NormalModuleFactory.js:1109 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:1109:5
-  
-  - Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/admin.php' in '/Applications/XAMPP/xam    ppfiles/htdocs'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/admin.php' in '/A    pplications/XAMPP/xamppfiles/htdocs'
-  
-  - Compilation.js:2094 
-    [htdocs]/[webpack]/lib/Compilation.js:2094:28
-  
-  - NormalModuleFactory.js:895 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:895:13
-  
-  
-  - NormalModuleFactory.js:332 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:332:22
-  
-  
-  - NormalModuleFactory.js:509 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:509:22
-  
-  - NormalModuleFactory.js:151 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:151:11
-  
-  - NormalModuleFactory.js:767 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:767:25
-  
-  - NormalModuleFactory.js:979 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:979:8
-  
-  - NormalModuleFactory.js:1109 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:1109:5
-  
-  - Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicadmin.php' in '/Applications/XAMPP/    xamppfiles/htdocs'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicadmin.php' in     '/Applications/XAMPP/xamppfiles/htdocs'
-  
-  - Compilation.js:2094 
-    [htdocs]/[webpack]/lib/Compilation.js:2094:28
-  
-  - NormalModuleFactory.js:895 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:895:13
-  
-  
-  - NormalModuleFactory.js:332 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:332:22
-  
-  
-  - NormalModuleFactory.js:509 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:509:22
-  
-  - NormalModuleFactory.js:151 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:151:11
-  
-  - NormalModuleFactory.js:767 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:767:25
-  
-  - NormalModuleFactory.js:979 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:979:8
-  
-  - NormalModuleFactory.js:1109 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:1109:5
-  
-  - Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicindex.php' in '/Applications/XAMPP/    xamppfiles/htdocs'
-  
-  - ModuleNotFoundError: Module not found: Error: Can't resolve '/Applications/XAMPP/xamppfiles/htdocs/templates/aicindex.php' in     '/Applications/XAMPP/xamppfiles/htdocs'
-  
-  - Compilation.js:2094 
-    [htdocs]/[webpack]/lib/Compilation.js:2094:28
-  
-  - NormalModuleFactory.js:895 
-    [htdocs]/[webpack]/lib/NormalModuleFactory.js:895:13
-  
-  
-</pre>
+<?php
+$g = SystemConfig::globalVariables();
+$conn = Database::connection();
+SESSION_START();
+if (isset($_SESSION['username'])) {
+	header("Location: /stats");
+} else {
+	if (isset($_POST['submit'])) {
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		if ($username == '' && $password == '') {
+			$msg = '<p class="alert">Username and Password are empty</p>';
+		}
+		else {
+			if ($username == '' || $password == '')
+			$msg = '<p class="alert">Username or Password is empty</p>';
+			else {
+				if ($username == 'Allinclicks' && $password == '123456') {
+					header("Location: /stats");
+					$_SESSION['username'] = $_POST['username'];
+					$_SESSION['last_time_admin'] = time();
+				}
+				else {
+					$msg = '<p class="alert">Username or Password is incorrect</p>';
+				}
+			}
+		}
+	}
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><?=$g['title'];?> Log in</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script defer src="/dist/mainca76fd37822be6fe1eed.js"></script><script defer src="/dist/universal3822cbb87a5a56f60e2c.js"></script><script defer src="/dist/login065b96df3df40327c2c4.js"></script></head>
+<body>
+	<div class="login_parent">
+		<div class="login_container">
+			<div class="login_design">
+				<div class="login_design__logo">
+					<img src="img/code.png" draggable="false">
+					<h3><?=$g['title'];?></h3>
+				</div>
+			</div>
+			<div class="login_box">
+				<div class="header">
+					<h3>ALLINCLICKS</h3>
+				</div>
+				<div class="msg"><?=$msg;?></div>
+				<div class="login">
+					<form action="" method="POST">
+						<input type="text" name="username" placeholder="Username" value="<?=$username;?>">
+						<input type="password" name="password" placeholder="Password">
+						<button type="submit" name="submit">Log In</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var type = "login";
+	</script>
+</body>
+</html>
