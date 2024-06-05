@@ -1,5 +1,8 @@
 <?php
-require "config.php";
+require 'core.php';
+$g = SystemConfig::globalVariables();
+$conn = Database::connection();
+[$server, $username, $password] = Database::getDatabaseInfo();
 $prefix = "allincli_".$_POST['product']."_";
 $data = json_decode($_POST['data']);
 foreach($data as $key => $value) {

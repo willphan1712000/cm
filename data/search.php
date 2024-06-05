@@ -1,6 +1,8 @@
 <?php
-require "config.php";
-include "maintenance.php";
+include "core.php";
+$g = SystemConfig::globalVariables();
+$conn = Database::connection();
+[$server, $username, $password] = Database::getDatabaseInfo();
 if($conn) {
     if(isset($_POST['searchReq'])) {
         $req = $_POST['searchReq'];
