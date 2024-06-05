@@ -23,7 +23,7 @@ $root = SystemConfig::getRootDir().$product;
     <title><?=$g['title'];?></title>
     <script src="https://kit.fontawesome.com/960d33c629.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script defer src="/dist/main539f340cbcd814e8ae49.js"></script><script defer src="/dist/universal3822cbb87a5a56f60e2c.js"></script><script defer src="/dist/style4ca2fd3a6f68b579cfa1.js"></script><script defer src="/dist/p4fa0ea8126a9853172ce.js"></script><script defer src="/dist/responsive85a42f4d516c9a121a3d.js"></script></head>
+<script defer src="/dist/mainec01b1067114c1724b8e.js"></script><script defer src="/dist/universal3822cbb87a5a56f60e2c.js"></script><script defer src="/dist/style4ca2fd3a6f68b579cfa1.js"></script><script defer src="/dist/p4fa0ea8126a9853172ce.js"></script><script defer src="/dist/responsive85a42f4d516c9a121a3d.js"></script></head>
 <body>
     <div id="root"></div>
     <script>
