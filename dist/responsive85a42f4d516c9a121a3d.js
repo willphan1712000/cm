@@ -10,16 +10,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/cssjs/responsive.js":
-/*!********************************!*\
-  !*** ./js/cssjs/responsive.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_responsive_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../css/responsive.css */ \"./css/responsive.css\");\n\n\n//# sourceURL=webpack://htdocs/./js/cssjs/responsive.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/responsive.css":
 /*!*********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/responsive.css ***!
@@ -197,7 +187,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./js/cssjs/responsive.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./css/responsive.css");
 /******/ 	
 /******/ })()
 ;

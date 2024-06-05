@@ -9,8 +9,8 @@ $data = json_decode($data);
 
 foreach($data as $key => $value) {
     $folderName = str_replace('_','.',$value);
-    SystemConfig::distDelete($to.$folderName, ["upload", "logo"]);
-    SystemConfig::copyfolder($from, $to.$folderName."/");
+    distDelete($to.$folderName, ["upload", "logo"]);
+    copyfolder($from, $to.$folderName."/");
 }
 // foreach($data as $key => $value) {
 //     // Below is to update tech files
