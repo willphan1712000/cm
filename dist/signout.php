@@ -1,4 +1,4 @@
-<head><script defer src="/dist/bundle141fb03bfc58917159ba.js"></script></head><?php
+<head><script defer src="/dist/bundle53c9be43116496f8722d.js"></script></head><?php
 SESSION_START();
 SESSION_DESTROY();
 header("Location: /");

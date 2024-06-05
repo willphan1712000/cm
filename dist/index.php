@@ -37,7 +37,7 @@ if (isset($_SESSION['username'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?=$g['title'];?> Log in</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script defer src="/dist/bundle141fb03bfc58917159ba.js"></script><script defer src="/dist/universald73e00ea6764dab4fcea.js"></script><script defer src="/dist/loginb82890d5a36296fd33f2.js"></script></head>
+<script defer src="/dist/bundle53c9be43116496f8722d.js"></script><script defer src="/dist/universald73e00ea6764dab4fcea.js"></script><script defer src="/dist/logindd7cb81eea56ae1ec3ab.js"></script></head>
 <body>
 	<div class="login_parent">
 		<div class="login_container">

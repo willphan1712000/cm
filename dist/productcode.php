@@ -23,7 +23,7 @@ $listOfProduct = $g['product'];
     <title><?=$g['title'];?></title>
     <script src="https://kit.fontawesome.com/960d33c629.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script defer src="/dist/bundle141fb03bfc58917159ba.js"></script><script defer src="/dist/universald73e00ea6764dab4fcea.js"></script><script defer src="/dist/style7a2e8fb83f4e015c0023.js"></script><script defer src="/dist/responsive6b36ab829f37181435c4.js"></script><script defer src="/dist/p62179af8622905492b2f.js"></script></head>
+<script defer src="/dist/bundle53c9be43116496f8722d.js"></script><script defer src="/dist/universald73e00ea6764dab4fcea.js"></script><script defer src="/dist/style7a2e8fb83f4e015c0023.js"></script><script defer src="/dist/p62179af8622905492b2f.js"></script><script defer src="/dist/responsive6b36ab829f37181435c4.js"></script></head>
 <body>
     <!-- Mobile responsive begins -->
     <div class="side-nav--mobile">
