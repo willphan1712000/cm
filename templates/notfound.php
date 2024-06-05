@@ -30,7 +30,7 @@
             justify-content: center;
         }
     </style>
-<script defer src="/dist/main539f340cbcd814e8ae49.js"></script></head>
+</head>
 <body>
     <div class="container">
         <div class="msg">
