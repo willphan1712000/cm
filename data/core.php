@@ -52,7 +52,7 @@ class SystemConfig {
     }
 
     public static function getVersion() {
-        return 3.2;
+        return 3.21;
     }
 
     public static function getRootDir() {
