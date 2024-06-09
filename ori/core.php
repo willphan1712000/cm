@@ -179,8 +179,8 @@ function distDelete($path, $exception) {
             return "Could not delete this file ".$path;
         }
     } else {
-        $all1 = glob($path."*", GLOB_MARK);
-        $all2 = glob($path.".*", GLOB_MARK);
+        $all1 = glob($path."/*", GLOB_MARK);
+        $all2 = glob($path."/.*", GLOB_MARK);
         $all = array_merge($all1, $all2);
         foreach($all as $a) {
             $ff = basename($a);

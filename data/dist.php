@@ -9,7 +9,7 @@ $data = json_decode($data);
 
 foreach($data as $key => $value) {
     $folderName = str_replace('_','.',$value);
-    distDelete($to.$folderName, ["upload", "logo"]);
+    distDelete($to.$folderName."/", [$to.$folderName."/upload/", $to.$folderName."/img/logo/"]);
     copyfolder($from, $to.$folderName."/");
 }
 // foreach($data as $key => $value) {
