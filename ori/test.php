@@ -58,7 +58,5 @@ require 'core.php';
 //     }
 // }
 
-
-echo config::getVersion();
-// config::copyfolder("../data/", "../des/");
-echo config::distDelete("../des", []);
+// copyfolder("../data/", "../des/");
+distDelete("../des", []);
