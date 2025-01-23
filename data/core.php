@@ -158,10 +158,10 @@ class SystemConfig {
 }
 class Database {
     private static $servername = "localhost:3306";
-    // private static $username = "root";
-    // private static $password = "";
-    private static $username = "allincli_ssadmin";
-    private static $password = "123456"; // Default password used by Allinclicks
+    private static $username = "root";
+    private static $password = "";
+    // private static $username = "allincli_ssadmin";
+    // private static $password = "123456"; // Default password used by Allinclicks
     public static function databaseName() {
         return;
     }
